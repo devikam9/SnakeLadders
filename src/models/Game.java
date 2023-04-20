@@ -47,6 +47,10 @@ public class Game {
 
         //check for exception cases (end cases)
 
+        System.out.println("enter the move");
+
+
+
         if(player.getPrevPosition() == m*n){
             throw new Exception(" game has ended for the player" + player.getName());
         }
