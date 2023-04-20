@@ -48,6 +48,7 @@ public class Game {
         //check for exception cases (end cases)
 
         System.out.println("please enter the moves");
+
         
         
 
@@ -55,9 +56,11 @@ public class Game {
 
         if(player.getPrevPosition() == m*n){
             throw new Exception(" game has ended for the player" + player.getName());
+
         }
 
        System.out.println(" prevposition of player : "+ player.getName() + " is :" + player.getPrevPosition());
+        System.out.println("prevposition");
 
        // take the prev position and add it to the dice val to get current position.
 
