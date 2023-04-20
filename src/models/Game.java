@@ -47,7 +47,7 @@ public class Game {
 
         //check for exception cases (end cases)
 
-        System.out.println("enter the move");
+        System.out.println("enter the move or moves");
         
         
 
